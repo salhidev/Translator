@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+	  <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image x:Name="BgImage" Source="BgImage.jpg"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+               AbsoluteLayout.LayoutFlags="All"/>
+        <StackLayout
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All">
+
+            <Frame OutlineColor="Accent" 
+                   WidthRequest="300" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand">
+                <StackLayout>
+                    <Entry x:Name="FromEntry"  />
+                    <Button Text="Translate" Clicked="OnClick1" />
+                    <Label  x:Name="likecount" TextColor="#77d065" FontSize = "20"   />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+            </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
