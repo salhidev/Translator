@@ -20,7 +20,7 @@ namespace App1
         static string path = "/V2/Http.svc/Translate";
 
         // NOTE: Replace your Azore key with a valid subscription key.
-        static string key = "xxxxxxxxxxxxxxxxxxxx";
+        static string key = "****************";
 
         public async Task<string> TranslateString(string strSource, string language)
         {

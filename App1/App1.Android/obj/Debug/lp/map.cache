@@ -1,5 +1,8 @@
-System.Runtime
 FormsViewGroup
+Newtonsoft.Json
+System.Net.Http.Extensions
+System.Net.Http.Primitives
+System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -20,9 +23,6 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+netstandard
 System.ComponentModel
 System.Reflection.Extensions
-Newtonsoft.Json
-netstandard
-System.Net.Http.Extensions
-System.Net.Http.Primitives

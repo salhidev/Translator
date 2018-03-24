@@ -942,11 +942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\user\\source\\repos\\App1\\App1\\App1.Android\\App1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Translator\\App1\\App1.Android\\App1.Android.csproj",
       "projectName": "App1.Android",
-      "projectPath": "c:\\users\\user\\source\\repos\\App1\\App1\\App1.Android\\App1.Android.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Translator\\App1\\App1.Android\\App1.Android.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\user\\source\\repos\\App1\\App1\\App1.Android\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Translator\\App1\\App1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

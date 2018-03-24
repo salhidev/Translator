@@ -20,6 +20,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Model\DataMarketAccessToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OnPrimaryClipChangedListener.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TranslatorService.cs" />
   </ItemGroup>
   <ItemGroup>
